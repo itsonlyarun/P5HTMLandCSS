@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+    height: 12vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#nav{
+    width: 80vw;
+    gap: 5%;
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+}
+
+#logo{
+    display: flex;
+    gap: 3vw;
+}
+
+.vl{
+    border-right: 1px solid white;
+    height: 6vh;
+}
+
+#navbutton{
+    margin-right:5vw;
+    height: 5.5vh;
+    width: 12vw;
+    border-radius: 5px;
+    background-color: rgb(235, 15, 216);
+    color:white;
+    font-size: large;
+}
+
+#navbutton:hover{
+    background-color: #e3f30a;
+    color: red;
+}
+
+ul{
+    display: flex;
+    gap: 13%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(18, 241, 241);
+    color: #e6e3e3;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(96, 243, 223);
+    color: #f70707;
+    border-radius: 2px;
+}
+
+#main{
+    height: 88vh;
+    display: grid;
+    justify-content: center;
+    /* align-content: center; */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 3.5em;
+    margin-top: 19vh;
+    margin-left: 4vw;
+}
+
+h4{
+    font-weight: 100;
+    margin-left: 4vw;
+    font-size: 1.5em;
+}
+
+#reqbtn{
+    width: 19vw;
+    height: 6vh;
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    background-color: #ee08e2;
+}
+
+#reqbtn:hover{
+    background-color: #e3f30a;
+    color: red;
+}
